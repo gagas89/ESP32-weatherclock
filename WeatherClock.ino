@@ -19,8 +19,8 @@ int16_t xpos = 10;
 int16_t ypos = 165;
 
 // === WiFi ===
-const char* ssid     = "Kedai Unay";
-const char* password = "baksoSAPI";
+const char* ssid     = ""; //your WiFi SSID here
+const char* password = ""; //your WiFi Passphrase here
 // === NTP ===
 const long  gmtOffset_sec = 7 * 3600;   // GMT+7 (WIB)
 const int   daylightOffset_sec = 0;     // no daylight saving in Indonesia
@@ -31,7 +31,7 @@ char day;
 String forecastData[4][5];  
 
 // === Weather API ===
-String apiKey = "52113b2cee5bb722c12342dc852aaa3c";
+String apiKey = ""; // your Openweathermap.org api token/key here
 String city   = "Sidoarjo";
 String units  = "metric";   // "metric" for °C, "imperial" for °F
 
